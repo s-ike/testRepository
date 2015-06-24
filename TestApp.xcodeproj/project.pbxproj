@@ -13,6 +13,7 @@
 		8C0A2DA41B3A870A00BF221D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C0A2DA31B3A870A00BF221D /* Images.xcassets */; };
 		8C0A2DA71B3A870A00BF221D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C0A2DA51B3A870A00BF221D /* LaunchScreen.xib */; };
 		8C0A2DB31B3A870B00BF221D /* TestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0A2DB21B3A870B00BF221D /* TestAppTests.swift */; };
+		8C0A2DC01B3AA91A00BF221D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C0A2DC21B3AA91A00BF221D /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,9 @@
 		8C0A2DAC1B3A870B00BF221D /* TestAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C0A2DB11B3A870B00BF221D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C0A2DB21B3A870B00BF221D /* TestAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAppTests.swift; sourceTree = "<group>"; };
+		8C0A2DBC1B3AA87B00BF221D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		8C0A2DBD1B3AA87D00BF221D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		8C0A2DC11B3AA91A00BF221D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				8C0A2D9B1B3A870900BF221D /* Info.plist */,
+				8C0A2DC21B3AA91A00BF221D /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -193,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8C0A2DA21B3A870A00BF221D /* Main.storyboard in Resources */,
+				8C0A2DC01B3AA91A00BF221D /* InfoPlist.strings in Resources */,
 				8C0A2DA71B3A870A00BF221D /* LaunchScreen.xib in Resources */,
 				8C0A2DA41B3A870A00BF221D /* Images.xcassets in Resources */,
 			);
@@ -240,6 +246,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				8C0A2DA11B3A870A00BF221D /* Base */,
+				8C0A2DBC1B3AA87B00BF221D /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -248,8 +255,17 @@
 			isa = PBXVariantGroup;
 			children = (
 				8C0A2DA61B3A870A00BF221D /* Base */,
+				8C0A2DBD1B3AA87D00BF221D /* ja */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		8C0A2DC21B3AA91A00BF221D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C0A2DC11B3AA91A00BF221D /* ja */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
