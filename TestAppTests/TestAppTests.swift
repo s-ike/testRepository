@@ -2,8 +2,8 @@
 //  TestAppTests.swift
 //  TestAppTests
 //
-//  Created by 池田 俊太郎 on 2015/06/24.
-//  Copyright (c) 2015年 池田 俊太郎. All rights reserved.
+//  Created by S.Ikeda on 2015/06/24.
+//  Copyright (c) 2015年 S.Ikeda. All rights reserved.
 //
 
 import UIKit
